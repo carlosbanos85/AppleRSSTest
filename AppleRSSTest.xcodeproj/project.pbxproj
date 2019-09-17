@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C328362B23315D46003A46F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328362A23315D46003A46F1 /* AppDelegate.swift */; };
+		C328362D23315D46003A46F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328362C23315D46003A46F1 /* ViewController.swift */; };
+		C328363323315D46003A46F1 /* AppleRSSTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C328363123315D46003A46F1 /* AppleRSSTest.xcdatamodeld */; };
+		C328363523315D47003A46F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C328363423315D47003A46F1 /* Assets.xcassets */; };
+		C328363823315D47003A46F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328363623315D47003A46F1 /* LaunchScreen.storyboard */; };
+		C328364323315D47003A46F1 /* AppleRSSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328364223315D47003A46F1 /* AppleRSSTestTests.swift */; };
+		C328364E23315D47003A46F1 /* AppleRSSTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328364D23315D47003A46F1 /* AppleRSSTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C328363F23315D47003A46F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C328361F23315D46003A46F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C328362623315D46003A46F1;
+			remoteInfo = AppleRSSTest;
+		};
+		C328364A23315D47003A46F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C328361F23315D46003A46F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C328362623315D46003A46F1;
+			remoteInfo = AppleRSSTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C328362723315D46003A46F1 /* AppleRSSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleRSSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328362A23315D46003A46F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C328362C23315D46003A46F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C328363223315D46003A46F1 /* AppleRSSTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppleRSSTest.xcdatamodel; sourceTree = "<group>"; };
+		C328363423315D47003A46F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C328363723315D47003A46F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C328363923315D47003A46F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C328363E23315D47003A46F1 /* AppleRSSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleRSSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328364223315D47003A46F1 /* AppleRSSTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleRSSTestTests.swift; sourceTree = "<group>"; };
+		C328364423315D47003A46F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C328364923315D47003A46F1 /* AppleRSSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleRSSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328364D23315D47003A46F1 /* AppleRSSTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleRSSTestUITests.swift; sourceTree = "<group>"; };
+		C328364F23315D47003A46F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C328362423315D46003A46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C328363B23315D47003A46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C328364623315D47003A46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C328361E23315D46003A46F1 = {
+			isa = PBXGroup;
+			children = (
+				C328362923315D46003A46F1 /* AppleRSSTest */,
+				C328364123315D47003A46F1 /* AppleRSSTestTests */,
+				C328364C23315D47003A46F1 /* AppleRSSTestUITests */,
+				C328362823315D46003A46F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C328362823315D46003A46F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C328362723315D46003A46F1 /* AppleRSSTest.app */,
+				C328363E23315D47003A46F1 /* AppleRSSTestTests.xctest */,
+				C328364923315D47003A46F1 /* AppleRSSTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C328362923315D46003A46F1 /* AppleRSSTest */ = {
+			isa = PBXGroup;
+			children = (
+				C328362A23315D46003A46F1 /* AppDelegate.swift */,
+				C328362C23315D46003A46F1 /* ViewController.swift */,
+				C328363423315D47003A46F1 /* Assets.xcassets */,
+				C328363623315D47003A46F1 /* LaunchScreen.storyboard */,
+				C328363923315D47003A46F1 /* Info.plist */,
+				C328363123315D46003A46F1 /* AppleRSSTest.xcdatamodeld */,
+			);
+			path = AppleRSSTest;
+			sourceTree = "<group>";
+		};
+		C328364123315D47003A46F1 /* AppleRSSTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C328364223315D47003A46F1 /* AppleRSSTestTests.swift */,
+				C328364423315D47003A46F1 /* Info.plist */,
+			);
+			path = AppleRSSTestTests;
+			sourceTree = "<group>";
+		};
+		C328364C23315D47003A46F1 /* AppleRSSTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C328364D23315D47003A46F1 /* AppleRSSTestUITests.swift */,
+				C328364F23315D47003A46F1 /* Info.plist */,
+			);
+			path = AppleRSSTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C328362623315D46003A46F1 /* AppleRSSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C328365223315D47003A46F1 /* Build configuration list for PBXNativeTarget "AppleRSSTest" */;
+			buildPhases = (
+				C328362323315D46003A46F1 /* Sources */,
+				C328362423315D46003A46F1 /* Frameworks */,
+				C328362523315D46003A46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleRSSTest;
+			productName = AppleRSSTest;
+			productReference = C328362723315D46003A46F1 /* AppleRSSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C328363D23315D47003A46F1 /* AppleRSSTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C328365523315D47003A46F1 /* Build configuration list for PBXNativeTarget "AppleRSSTestTests" */;
+			buildPhases = (
+				C328363A23315D47003A46F1 /* Sources */,
+				C328363B23315D47003A46F1 /* Frameworks */,
+				C328363C23315D47003A46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C328364023315D47003A46F1 /* PBXTargetDependency */,
+			);
+			name = AppleRSSTestTests;
+			productName = AppleRSSTestTests;
+			productReference = C328363E23315D47003A46F1 /* AppleRSSTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C328364823315D47003A46F1 /* AppleRSSTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C328365823315D47003A46F1 /* Build configuration list for PBXNativeTarget "AppleRSSTestUITests" */;
+			buildPhases = (
+				C328364523315D47003A46F1 /* Sources */,
+				C328364623315D47003A46F1 /* Frameworks */,
+				C328364723315D47003A46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C328364B23315D47003A46F1 /* PBXTargetDependency */,
+			);
+			name = AppleRSSTestUITests;
+			productName = AppleRSSTestUITests;
+			productReference = C328364923315D47003A46F1 /* AppleRSSTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C328361F23315D46003A46F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Carlos Banos";
+				TargetAttributes = {
+					C328362623315D46003A46F1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C328363D23315D47003A46F1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C328362623315D46003A46F1;
+					};
+					C328364823315D47003A46F1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C328362623315D46003A46F1;
+					};
+				};
+			};
+			buildConfigurationList = C328362223315D46003A46F1 /* Build configuration list for PBXProject "AppleRSSTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C328361E23315D46003A46F1;
+			productRefGroup = C328362823315D46003A46F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C328362623315D46003A46F1 /* AppleRSSTest */,
+				C328363D23315D47003A46F1 /* AppleRSSTestTests */,
+				C328364823315D47003A46F1 /* AppleRSSTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C328362523315D46003A46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328363823315D47003A46F1 /* LaunchScreen.storyboard in Resources */,
+				C328363523315D47003A46F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C328363C23315D47003A46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C328364723315D47003A46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C328362323315D46003A46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328362D23315D46003A46F1 /* ViewController.swift in Sources */,
+				C328362B23315D46003A46F1 /* AppDelegate.swift in Sources */,
+				C328363323315D46003A46F1 /* AppleRSSTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C328363A23315D47003A46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328364323315D47003A46F1 /* AppleRSSTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C328364523315D47003A46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328364E23315D47003A46F1 /* AppleRSSTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C328364023315D47003A46F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C328362623315D46003A46F1 /* AppleRSSTest */;
+			targetProxy = C328363F23315D47003A46F1 /* PBXContainerItemProxy */;
+		};
+		C328364B23315D47003A46F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C328362623315D46003A46F1 /* AppleRSSTest */;
+			targetProxy = C328364A23315D47003A46F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C328363623315D47003A46F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C328363723315D47003A46F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C328365023315D47003A46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C328365123315D47003A46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C328365323315D47003A46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4MERUEP35;
+				INFOPLIST_FILE = AppleRSSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosbanos.AppleRSSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C328365423315D47003A46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4MERUEP35;
+				INFOPLIST_FILE = AppleRSSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosbanos.AppleRSSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C328365623315D47003A46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4MERUEP35;
+				INFOPLIST_FILE = AppleRSSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosbanos.AppleRSSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleRSSTest.app/AppleRSSTest";
+			};
+			name = Debug;
+		};
+		C328365723315D47003A46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4MERUEP35;
+				INFOPLIST_FILE = AppleRSSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosbanos.AppleRSSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleRSSTest.app/AppleRSSTest";
+			};
+			name = Release;
+		};
+		C328365923315D47003A46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4MERUEP35;
+				INFOPLIST_FILE = AppleRSSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosbanos.AppleRSSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleRSSTest;
+			};
+			name = Debug;
+		};
+		C328365A23315D47003A46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4MERUEP35;
+				INFOPLIST_FILE = AppleRSSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosbanos.AppleRSSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleRSSTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C328362223315D46003A46F1 /* Build configuration list for PBXProject "AppleRSSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328365023315D47003A46F1 /* Debug */,
+				C328365123315D47003A46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C328365223315D47003A46F1 /* Build configuration list for PBXNativeTarget "AppleRSSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328365323315D47003A46F1 /* Debug */,
+				C328365423315D47003A46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C328365523315D47003A46F1 /* Build configuration list for PBXNativeTarget "AppleRSSTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328365623315D47003A46F1 /* Debug */,
+				C328365723315D47003A46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C328365823315D47003A46F1 /* Build configuration list for PBXNativeTarget "AppleRSSTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328365923315D47003A46F1 /* Debug */,
+				C328365A23315D47003A46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C328363123315D46003A46F1 /* AppleRSSTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C328363223315D46003A46F1 /* AppleRSSTest.xcdatamodel */,
+			);
+			currentVersion = C328363223315D46003A46F1 /* AppleRSSTest.xcdatamodel */;
+			path = AppleRSSTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C328361F23315D46003A46F1 /* Project object */;
+}
