@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		C328362B23315D46003A46F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328362A23315D46003A46F1 /* AppDelegate.swift */; };
-		C328362D23315D46003A46F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328362C23315D46003A46F1 /* ViewController.swift */; };
 		C328363323315D46003A46F1 /* AppleRSSTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C328363123315D46003A46F1 /* AppleRSSTest.xcdatamodeld */; };
 		C328363523315D47003A46F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C328363423315D47003A46F1 /* Assets.xcassets */; };
 		C328363823315D47003A46F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328363623315D47003A46F1 /* LaunchScreen.storyboard */; };
 		C328364323315D47003A46F1 /* AppleRSSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328364223315D47003A46F1 /* AppleRSSTestTests.swift */; };
 		C328364E23315D47003A46F1 /* AppleRSSTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328364D23315D47003A46F1 /* AppleRSSTestUITests.swift */; };
+		C328366223319111003A46F1 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328366123319111003A46F1 /* Album.swift */; };
+		C32836732331A2A6003A46F1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32836722331A2A6003A46F1 /* Service.swift */; };
+		C32836782331AB8E003A46F1 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32836772331AB8E003A46F1 /* Feed.swift */; };
+		C328367A2331ABA1003A46F1 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32836792331ABA1003A46F1 /* Author.swift */; };
+		C3D972202332ACFD0080D732 /* FeedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9721F2332ACFD0080D732 /* FeedDataSource.swift */; };
+		C3D972232332AF5F0080D732 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D972222332AF5F0080D732 /* AlbumTableViewCell.swift */; };
+		C3D972262332BFDE0080D732 /* AlbumsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D972252332BFDE0080D732 /* AlbumsFeedTableViewController.swift */; };
+		C3ED164F23334DB600890464 /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED164E23334DB600890464 /* FeedResponse.swift */; };
+		C3ED165123334FC400890464 /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED165023334FC400890464 /* Genres.swift */; };
+		C3ED1654233356FF00890464 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED1653233356FF00890464 /* UIImageView+Extensions.swift */; };
+		C3ED16572333616000890464 /* AlbumsFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED16562333616000890464 /* AlbumsFeedViewModel.swift */; };
+		C3ED16592333672000890464 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED16582333672000890464 /* AlbumDetailViewController.swift */; };
+		C3ED165B2333676500890464 /* AlbumDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED165A2333676500890464 /* AlbumDetailViewModel.swift */; };
+		C3ED165D23336D7900890464 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED165C23336D7900890464 /* AlbumDetailView.swift */; };
+		C3ED165F23337AA800890464 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED165E23337AA800890464 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		C328362723315D46003A46F1 /* AppleRSSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleRSSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328362A23315D46003A46F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C328362C23315D46003A46F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C328363223315D46003A46F1 /* AppleRSSTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppleRSSTest.xcdatamodel; sourceTree = "<group>"; };
 		C328363423315D47003A46F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C328363723315D47003A46F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,21 @@
 		C328364923315D47003A46F1 /* AppleRSSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleRSSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328364D23315D47003A46F1 /* AppleRSSTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleRSSTestUITests.swift; sourceTree = "<group>"; };
 		C328364F23315D47003A46F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C328366123319111003A46F1 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		C32836722331A2A6003A46F1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C32836772331AB8E003A46F1 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		C32836792331ABA1003A46F1 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		C3D9721F2332ACFD0080D732 /* FeedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataSource.swift; sourceTree = "<group>"; };
+		C3D972222332AF5F0080D732 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		C3D972252332BFDE0080D732 /* AlbumsFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsFeedTableViewController.swift; sourceTree = "<group>"; };
+		C3ED164E23334DB600890464 /* FeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResponse.swift; sourceTree = "<group>"; };
+		C3ED165023334FC400890464 /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
+		C3ED1653233356FF00890464 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		C3ED16562333616000890464 /* AlbumsFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsFeedViewModel.swift; sourceTree = "<group>"; };
+		C3ED16582333672000890464 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		C3ED165A2333676500890464 /* AlbumDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewModel.swift; sourceTree = "<group>"; };
+		C3ED165C23336D7900890464 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		C3ED165E23337AA800890464 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +125,15 @@
 		C328362923315D46003A46F1 /* AppleRSSTest */ = {
 			isa = PBXGroup;
 			children = (
-				C328362A23315D46003A46F1 /* AppDelegate.swift */,
-				C328362C23315D46003A46F1 /* ViewController.swift */,
+				C3ED1652233356E700890464 /* Extensions */,
+				C32836712331A28D003A46F1 /* Service */,
+				C328365B23318FDE003A46F1 /* Model */,
+				C3D972242332BE110080D732 /* View */,
+				C3ED16552333614500890464 /* ViewModel */,
+				C3D972252332BFDE0080D732 /* AlbumsFeedTableViewController.swift */,
+				C3ED16582333672000890464 /* AlbumDetailViewController.swift */,
 				C328363423315D47003A46F1 /* Assets.xcassets */,
+				C328362A23315D46003A46F1 /* AppDelegate.swift */,
 				C328363623315D47003A46F1 /* LaunchScreen.storyboard */,
 				C328363923315D47003A46F1 /* Info.plist */,
 				C328363123315D46003A46F1 /* AppleRSSTest.xcdatamodeld */,
@@ -123,6 +157,54 @@
 				C328364F23315D47003A46F1 /* Info.plist */,
 			);
 			path = AppleRSSTestUITests;
+			sourceTree = "<group>";
+		};
+		C328365B23318FDE003A46F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3ED164E23334DB600890464 /* FeedResponse.swift */,
+				C32836772331AB8E003A46F1 /* Feed.swift */,
+				C328366123319111003A46F1 /* Album.swift */,
+				C32836792331ABA1003A46F1 /* Author.swift */,
+				C3ED165023334FC400890464 /* Genres.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C32836712331A28D003A46F1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C32836722331A2A6003A46F1 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C3D972242332BE110080D732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3D972222332AF5F0080D732 /* AlbumTableViewCell.swift */,
+				C3ED165C23336D7900890464 /* AlbumDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3ED1652233356E700890464 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3ED1653233356FF00890464 /* UIImageView+Extensions.swift */,
+				C3ED165E23337AA800890464 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3ED16552333614500890464 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3D9721F2332ACFD0080D732 /* FeedDataSource.swift */,
+				C3ED16562333616000890464 /* AlbumsFeedViewModel.swift */,
+				C3ED165A2333676500890464 /* AlbumDetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +337,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C328362D23315D46003A46F1 /* ViewController.swift in Sources */,
+				C3D972262332BFDE0080D732 /* AlbumsFeedTableViewController.swift in Sources */,
+				C3D972202332ACFD0080D732 /* FeedDataSource.swift in Sources */,
+				C32836782331AB8E003A46F1 /* Feed.swift in Sources */,
 				C328362B23315D46003A46F1 /* AppDelegate.swift in Sources */,
+				C3ED165123334FC400890464 /* Genres.swift in Sources */,
+				C3ED164F23334DB600890464 /* FeedResponse.swift in Sources */,
+				C3ED165F23337AA800890464 /* UIView+Extensions.swift in Sources */,
+				C3ED1654233356FF00890464 /* UIImageView+Extensions.swift in Sources */,
+				C328367A2331ABA1003A46F1 /* Author.swift in Sources */,
+				C32836732331A2A6003A46F1 /* Service.swift in Sources */,
 				C328363323315D46003A46F1 /* AppleRSSTest.xcdatamodeld in Sources */,
+				C328366223319111003A46F1 /* Album.swift in Sources */,
+				C3ED16592333672000890464 /* AlbumDetailViewController.swift in Sources */,
+				C3ED16572333616000890464 /* AlbumsFeedViewModel.swift in Sources */,
+				C3D972232332AF5F0080D732 /* AlbumTableViewCell.swift in Sources */,
+				C3ED165B2333676500890464 /* AlbumDetailViewModel.swift in Sources */,
+				C3ED165D23336D7900890464 /* AlbumDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4MERUEP35;
 				INFOPLIST_FILE = AppleRSSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +542,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4MERUEP35;
 				INFOPLIST_FILE = AppleRSSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
